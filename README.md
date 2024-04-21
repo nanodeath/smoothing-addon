@@ -1,11 +1,19 @@
 # smoothing-addon v 1.2.2
 Fixed timestep interpolation gdscript addon for Godot 3.2 (and later versions)
 
+### Update
+As of Godot 3.5, 3D physics interpolation is build into the engine, and as of 3.6 (beta 4 onward) 2D physics interpolation is built in. New users are recommended to use core interpolation, rather than this addon.
+
+https://docs.godotengine.org/en/3.6/tutorials/physics/interpolation/index.html
+
+However, the addon is maintained for compatibility purposes.
+
+## Introduction
+
 If you were wondering how to use that new function `Engine.get_physics_interpolation_fraction()` in 3.2, feel free to use this as is, or to get ideas from for your own version. 
 
 _If you find bugs / have suggestions, please add an issue to the issue tracker and I will look into it!_ :)
 
-## About
 The smoothing addon adds 2 new nodes to Godot, 'Smoothing' (for 3d) and 'Smoothing2d' (for 2d). They allow for fixed timestep interpolation without writing any code. See here for an explanation of fixed timestep interpolation:<br/>
 https://www.gamedev.net/blogs/entry/2265460-fixing-your-timestep-and-evaluating-godot/
 <br/>
