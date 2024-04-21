@@ -6,7 +6,7 @@ As of Godot 3.5, 3D physics interpolation is build into the engine, and as of 3.
 
 https://docs.godotengine.org/en/3.6/tutorials/physics/interpolation/index.html
 
-However, the addon is maintained for compatibility purposes.
+However, the addon is maintained for compatibility purposes with existing games, and previous versions of the engine.
 
 ## Introduction
 
